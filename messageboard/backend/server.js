@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 
-var messages=[{text:"Test message",owner:"John"},{text:"Test  2",owner:"Amit"}];
+var messages=[{text:"Test message",owner:"John"},{text:"Test  2",owner:"Amit brutta"}];
 
 app.use((req,res,next) => {
     res.header('Access-Control-Allow-Origin','*');
